@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    style="@style/toolbar_base"
+    android:layout_marginBottom="@dimen/dp_2"
+    app:contentInsetStart="0dp"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/mr_back"
+        style="@style/RippleStyleBlack"
+        android:layout_width="45dip"
+        android:layout_height="45dip"
+        app:mrl_rippleDimension="10dp"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleOverlay="true"
+        app:mrl_rippleRoundedCorners="@dimen/dp_40">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@mipmap/ic_arrow_back_black_24dp" />
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+    <TextView
+        android:id="@+id/txttoolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Title"
+        android:textColor="@color/black70"
+        android:textSize="@dimen/sp_12"
+        android:textStyle="bold" />
+
+
+</android.support.v7.widget.Toolbar>

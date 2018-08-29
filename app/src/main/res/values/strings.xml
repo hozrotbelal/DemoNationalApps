@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">National Apps BD</string>
+
+    <!-- View text -->
+    <string name="view_loading">Loading...</string>
+
+    <!-- Toast message -->
+    <string name="toast_could_not_retrieve_info">Could not retrieve info</string>
+    <string name="toast_network_error">You have no internet connection!\nPlease connect to internet.</string>
+    <string name="toast_no_info_found">No info found</string>
+    <string name="toast_please_input_your_mobile_no">Please input mobile number</string>
+    <string name="toast_please_input_valid_mobile_no">Please input valid mobile number</string>
+    <string name="toast_please_input_your_name">Please input your name</string>
+    <string name="toast_please_input_your_email">Please input your email</string>
+    <string name="toast_please_input_valid_email">Please input valid email</string>
+    <string name="toast_please_add_to_cart_first">Please add to cart first</string>
+    <string name="toast_please_input_your_address">Please input your address</string>
+
+
+    <!-- Other String -->
+    <string name="internet_error_msg">No network available!</string>
+
+    <!--All data ActivityFullScreenImage.java -->
+    <string name="image_of">%1$d of %2$d</string>
+
+</resources>
